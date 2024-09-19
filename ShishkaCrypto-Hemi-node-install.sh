@@ -65,7 +65,7 @@ echo "Public Key: $PUBLIC_KEY"
 echo "Public Key Hash: $PUBKEY_HASH"
 
 show "Экспорт переменных окружения..."
-export POPM_BTC_PRIVKEY=$PRIVATE_KEY
+export POPM_BTC_PRIVKEY=PRIVATE_KEY
 export POPM_STATIC_FEE=50
 export POPM_BFG_URL=wss://testnet.rpc.hemi.network/v1/ws/public
 
