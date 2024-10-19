@@ -135,7 +135,7 @@ if systemctl is-active --quiet hemi.service; then
     sudo systemctl stop hemi.service
     sudo systemctl disable hemi.service
 else
-    show "hemi.service не запущен."
+    show "hemi.service не существует, создаем новый..."
 fi
 
 cat << EOF | sudo tee /etc/systemd/system/hemi.service > /dev/null
